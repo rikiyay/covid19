@@ -311,7 +311,7 @@ class Simulation:
         #         self.ax1 = self.fig.add_subplot(1, 2, 1)
         
         for s in ['top','bottom','left','right']:
-            self.ax1.spines[s].set_linewidth(2)
+            self.ax1.spines[s].set_linewidth(1)
 #         self.ax1.set_aspect('equal', 'box')
         self.ax1.set_xlim(0, 1)
         self.ax1.set_ylim(0, 1)
@@ -323,7 +323,7 @@ class Simulation:
         self.ax3.spines['right'].set_visible(False)
         self.ax3.spines['top'].set_visible(False)
 #         self.ax3.set_aspect('equal', 'box')
-        self.ax3.set_xlim(0, 100)
+        self.ax3.set_xlim(0, self.nframes)
         self.ax3.set_ylim(0, 1)
         self.ax3.xaxis.set_ticks([])
         self.ax3.yaxis.set_ticks([])
@@ -338,9 +338,9 @@ class Simulation:
             # Writer = animation.FFMpegWriter()
             # anim.save(filename, writer=writer)
             # 3
-            anim.save('flattencurve_20_005_1000_06_04_01.gif', writer='imagemagick', fps=60)
+            # anim.save('flattencurve_20_005_1000_06_04_01.gif', writer='imagemagick', fps=60)
             # 4
-            # anim.save(filename)
+            anim.save('flattencurve.mp4')
             
         else:
             plt.show() 
@@ -350,6 +350,7 @@ class Simulation:
         To save the animation as a MP4 movie, set save=True.
         """
 
+        self.nframes = nframes
         self.setup_animation()
         anim = animation.FuncAnimation(self.fig, self.animate,
                 init_func=self.init, frames=nframes, interval=interval, blit=True)
@@ -357,18 +358,18 @@ class Simulation:
         return anim
 
 if __name__ == '__main__':
-    nparticles = 20 # 100
-    radii = 0.05 # 0.02 or 0.01 original: np.random.random(nparticles)*0.03+0.02
+    nparticles = 200 # 100
+    radii = 0.01 # 0.02 or 0.01 original: np.random.random(nparticles)*0.03+0.02
     prop = 0
 
-    nframes = 1000
-    transmission_rate = 0.6
-    disease_duration = 600
+    nframes = 40
+    transmission_rate = 0.8
+    disease_duration = 10
     death_rate = 0.4
-    dt = 0.1
+    dt = 0.04
 
     sim = Simulation(nparticles, radii, prop, transmission_rate, disease_duration, death_rate, dt)
-    sim.do_animation(save=False, nframes=nframes)
+    sim.do_animation(save=True, nframes=nframes)
 
     # from IPython.display import Image
     # Image(url='animation.gif')
