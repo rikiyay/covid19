@@ -238,13 +238,13 @@ class Simulation:
         
         self.texts = []
         self.texts.append(self.ax2.text(0.25,0.725, 'healthy', ha="left", va="center", fontsize=14, color='black'))
-        self.texts.append(self.ax2.text(0.75,0.725, str(99), ha="right", va="center", fontsize=14, color='silver'))
+        self.texts.append(self.ax2.text(0.75,0.725, '', ha="right", va="center", fontsize=14, color='silver'))
         self.texts.append(self.ax2.text(0.25,0.575, 'infected', ha="left", va="center", fontsize=14, color='black'))
-        self.texts.append(self.ax2.text(0.75,0.575, str(1), ha="right", va="center", fontsize=14, color='indianred'))
+        self.texts.append(self.ax2.text(0.75,0.575, '', ha="right", va="center", fontsize=14, color='indianred'))
         self.texts.append(self.ax2.text(0.25,0.425, 'recovered', ha="left", va="center", fontsize=14, color='black'))
-        self.texts.append(self.ax2.text(0.75,0.425, str(0), ha="right", va="center", fontsize=14, color='cadetblue'))
+        self.texts.append(self.ax2.text(0.75,0.425, '', ha="right", va="center", fontsize=14, color='cadetblue'))
         self.texts.append(self.ax2.text(0.25,0.275, 'dead', ha="left", va="center", fontsize=14, color='black'))
-        self.texts.append(self.ax2.text(0.75,0.275, str(0), ha="right", va="center", fontsize=14, color='dimgray'))
+        self.texts.append(self.ax2.text(0.75,0.275, '', ha="right", va="center", fontsize=14, color='dimgray'))
         
         self.bar = self.ax3.bar([], [], width=1)
     
@@ -283,13 +283,9 @@ class Simulation:
         self.recovered = np.append(self.recovered, recovered/self.nparticles)
         self.dead = np.append(self.dead, dead/self.nparticles)
 
-#         self.texts[0].set_text('healthy')
         self.texts[1].set_text(str(healthy))
-#         self.texts[2].set_text('infected')
         self.texts[3].set_text(str(infected))
-#         self.texts[4].set_text('recovered')
         self.texts[5].set_text(str(recovered))
-#         self.texts[6].set_text('dead')
         self.texts[7].set_text(str(dead))
         
         self.bar = self.ax3.bar([*range(len(self.healthy))], self.infected, width=1, color = colors['indianred'])
@@ -300,19 +296,15 @@ class Simulation:
         return self.circles + self.texts + list(self.bar)
 
     def setup_animation(self):
-#         self.fig, (self.ax1, self.ax2) = plt.subplots(1,2, figsize=(10, 5))
 
         self.fig = plt.figure(figsize=(10, 5))
         gs = GridSpec(2, 2, figure=self.fig)
         self.ax1 = self.fig.add_subplot(gs[:, 0])
         self.ax2 = self.fig.add_subplot(gs[0, 1])
         self.ax3 = self.fig.add_subplot(gs[1, 1])
-        #         self.fig = plt.figure()
-        #         self.ax1 = self.fig.add_subplot(1, 2, 1)
         
         for s in ['top','bottom','left','right']:
             self.ax1.spines[s].set_linewidth(1)
-#         self.ax1.set_aspect('equal', 'box')
         self.ax1.set_xlim(0, 1)
         self.ax1.set_ylim(0, 1)
         self.ax1.xaxis.set_ticks([])
@@ -322,7 +314,6 @@ class Simulation:
         
         self.ax3.spines['right'].set_visible(False)
         self.ax3.spines['top'].set_visible(False)
-#         self.ax3.set_aspect('equal', 'box')
         self.ax3.set_xlim(0, self.nframes)
         self.ax3.set_ylim(0, 1)
         self.ax3.xaxis.set_ticks([])
@@ -338,9 +329,10 @@ class Simulation:
             # Writer = animation.FFMpegWriter()
             # anim.save(filename, writer=writer)
             # 3
-            # anim.save('flattencurve_20_005_1000_06_04_01.gif', writer='imagemagick', fps=60)
+            # anim.save('flattencurve_003.gif', writer='imagemagick', fps=60)
+            # anim.save('flattencurve_003.gif', writer='imagemagick')
             # 4
-            anim.save('flattencurve.mp4')
+            anim.save('flattencurve_001.mp4')
             
         else:
             plt.show() 
@@ -358,20 +350,25 @@ class Simulation:
         return anim
 
 if __name__ == '__main__':
-    nparticles = 200 # 100
-    radii = 0.01 # 0.02 or 0.01 original: np.random.random(nparticles)*0.03+0.02
+    nparticles = 160
+    radii = 0.015
     prop = 0
 
-    nframes = 40
+    nframes = 1200
     transmission_rate = 0.8
-    disease_duration = 10
+    disease_duration = 600
     death_rate = 0.4
-    dt = 0.04
+    dt = 0.01 # 0.03, 0.01
+
+    # Abbreviated version (.gif)
+    # nparticles = 20
+    # radii = 0.05
+    # prop = 0
+    # nframes = 100
+    # transmission_rate = 0.8
+    # disease_duration = 30
+    # death_rate = 0.4
+    # dt = 0.08 # 0.25, 0.08
 
     sim = Simulation(nparticles, radii, prop, transmission_rate, disease_duration, death_rate, dt)
     sim.do_animation(save=True, nframes=nframes)
-
-    # from IPython.display import Image
-    # Image(url='animation.gif')
-
-    # params::: nparticles: 100 ~ 300, radii: 0.01 or 0.02, frames: 1000 ~ 3000, infectous rate: 0.6?, death_rate: 0.2 ~ 0.4?, dt = 0.01/0.0001
