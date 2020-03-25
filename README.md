@@ -1,7 +1,7 @@
 ### Covid-19: Simulation of Flatten the Curve  
 
-Without Social Distancing  
+No Social Distancing  
 ![](flattencurve_abbrev_dt025.gif)
 
-With Social Distancing  
+Social Distancing  
 ![](flattencurve_abbrev_dt008.gif)
