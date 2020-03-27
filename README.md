@@ -8,8 +8,8 @@ In this repo, we investigate:
   
 Link to interactive  
 - [notebook](https://nbviewer.jupyter.org/github/rikiyay/covid19/blob/master/flatten_the_curve.ipynb)  
-- [html](https://htmlpreview.github.io/https://github.com/rikiyay/covid19/blob/master/flatten_the_curve.html)  
-- [slide](https://htmlpreview.github.io/https://github.com/rikiyay/covid19/blob/master/flatten_the_curve.slides.html)  
+- [html](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/flatten_the_curve.html)  
+- [slide](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/flatten_the_curve.slides.html)  
   
 ---  
   
