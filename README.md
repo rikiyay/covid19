@@ -5,8 +5,6 @@ Replication and extension of the simulation in [this Washington Post article](ht
 Reference to [this implementation](https://github.com/xnx/collision) for elastic collision  
 <br/>
 Link to interactive notebook: [flatten_the_curve.ipynb](https://nbviewer.jupyter.org/github/rikiyay/covid19/blob/master/flatten_the_curve.ipynb)  
-Link to interactive html: [flatten_the_curve.html](https://github.com/rikiyay/covid19/blob/master/flatten_the_curve.html)  
-Link to interactive slide: [flatten_the_curve.slides.html](https://github.com/rikiyay/covid19/blob/master/flatten_the_curve.slides.html)  
 
 <!-- No Social Distancing  
 ![](flattencurve_abbrev_dt025.gif)  
