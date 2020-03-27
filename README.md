@@ -1,4 +1,4 @@
-## Covid-19: Simulation of "Flatten the Curve"  
+## Simulation of "Flatten the Curve"  
 In this repo, we investigate:
 - Impact of Social Distancing  
 - Influence of Period of Social Distancing  
@@ -7,9 +7,9 @@ In this repo, we investigate:
 ---  
   
 Link to interactive  
-- [notebook](https://nbviewer.jupyter.org/github/rikiyay/covid19/blob/master/flatten_the_curve.ipynb)  
-- [html](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/flatten_the_curve.html)  
-- [slide](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/flatten_the_curve.slides.html)  
+- [Notebook](https://nbviewer.jupyter.org/github/rikiyay/covid19/blob/master/flatten_the_curve.ipynb)  
+- [HTML](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/flatten_the_curve.html)  
+- [Slide](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/flatten_the_curve.slides.html)  
   
 ---  
   
