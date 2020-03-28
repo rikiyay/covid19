@@ -1,8 +1,3 @@
-'''
-reference to https://github.com/xnx/collision
-'''
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
@@ -12,7 +7,6 @@ from itertools import combinations
 from matplotlib import colors as mcolors
 
 colors = dict(mcolors.BASE_COLORS, **mcolors.CSS4_COLORS)
-
 class Particle:
     """A class representing a two-dimensional particle."""
             
@@ -82,7 +76,7 @@ class Simulation:
 
     ParticleClass = Particle
 
-    def __init__(self, n, radius=0.01, prop=0, transmission_rate=0.6, disease_duration=800, death_rate=0.4, dt=0.01):
+    def __init__(self, n, radius=0.01, prop=0, transmission_rate=0.6, disease_duration=800, death_rate=0.4, dt=0.01, dttype=None):
         """Initialize the simulation with n Particles with radii radius.
         radius can be a single value or a sequence with n values.
         Any key-value pairs passed in the styles dictionary will be passed
@@ -92,6 +86,7 @@ class Simulation:
 
         self.init_particles(n, radius, prop)
         self.dt = dt
+        self.dttype = dttype
         self.transmission_rate = transmission_rate
         self.disease_duration = disease_duration
         self.death_rate = death_rate
@@ -253,6 +248,23 @@ class Simulation:
     def animate(self, i):
         """The function passed to Matplotlib's FuncAnimation routine."""
 
+        if self.dttype == 'stop1/4':
+            if i >= 150:
+                self.dt = 0.03
+        elif self.dttype == 'stop1/2':
+            if i >= 300:
+                self.dt = 0.03
+        elif self.dttype == 'stop3/4':
+            if i >= 450:
+                self.dt = 0.03
+        elif self.dttype == 'lightswitch':
+            if i >= 150 and i < 300:
+                self.dt = 0.03
+            elif i >= 300 and i < 450:
+                self.dt = 0.01
+            elif i >= 450:
+                self.dt = 0.03
+
         self.advance_animation()
         healthy = 0
         infected = 0
@@ -322,22 +334,20 @@ class Simulation:
     def save_or_show_animation(self, anim, save, filename='flattencurve.gif'):
         if save:
             # 1
-#             Writer = animation.writers['ffmpeg']
-#             writer = Writer(fps=10, bitrate=1800)
-#             anim.save(filename, writer=writer)
+            Writer = animation.ImageMagickFileWriter(fps=30)
+            anim.save('flattencurve.gif', writer=Writer)
+            # anim.save('flattencurve.mp4', writer=Writer)
             # 2
-            # Writer = animation.FFMpegWriter()
-            # anim.save(filename, writer=writer)
+            # anim.save('flattencurve.mp4', fps=30)
             # 3
-            # anim.save('flattencurve_003.gif', writer='imagemagick', fps=60)
-            # anim.save('flattencurve_003.gif', writer='imagemagick')
+            # anim.save('flattencurve.gif', writer='imagemagick', fps=30)
             # 4
-            anim.save('flattencurve_001.mp4')
+            # Writer = animation.FFMpegFileWriter(fps=30)            
             
         else:
             plt.show() 
 
-    def do_animation(self, save=False, nframes=1000, interval=1000/60, filename='flattencurve.gif'):
+    def do_animation(self, save=False, nframes=600, interval=1000/30, filename='flattencurve.gif'):
         """Set up and carry out the animation of the molecular dynamics.
         To save the animation as a MP4 movie, set save=True.
         """
@@ -354,11 +364,12 @@ if __name__ == '__main__':
     radii = 0.015
     prop = 0
 
-    nframes = 1200
+    nframes = 600
     transmission_rate = 0.8
-    disease_duration = 600
-    death_rate = 0.4
+    disease_duration = 200
+    death_rate = 0.2
     dt = 0.01 # 0.03, 0.01
+    dttype = None # 'stop1/4', 'stop1/2', 'stop3/4', 'lightswitch'
 
     # Abbreviated version (.gif)
     # nparticles = 20
@@ -369,6 +380,7 @@ if __name__ == '__main__':
     # disease_duration = 30
     # death_rate = 0.4
     # dt = 0.08 # 0.25, 0.08
+    # dttype = None # 'stop1/4', 'stop1/2', 'stop3/4', 'lightswitch'
 
-    sim = Simulation(nparticles, radii, prop, transmission_rate, disease_duration, death_rate, dt)
+    sim = Simulation(nparticles, radii, prop, transmission_rate, disease_duration, death_rate, dt, dttype)
     sim.do_animation(save=True, nframes=nframes)
