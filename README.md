@@ -60,6 +60,10 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_lightswitch.png)  
 
+- Summary
+
+![](concats/concat_overlayed_all.png) 
+
 ---  
   
 Link to abbreviated version of interactive:  
