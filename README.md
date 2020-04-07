@@ -8,7 +8,7 @@ In this repo, we investigate:
 
 - No Social Distancing  
 ![](simulations/flattenthecurve_100.gif)  
-![](overlayeds/overlay_100.png)  
+![](concats/concat_overlayed_nosocialdistancing.png)  
 
 - Social Distancing: Whole Period  
 
