@@ -2,7 +2,7 @@
 In this repo, we investigate:
 - Impact of Social Distancing  
 - Influence of Period of Social Distancing  
-- Efficacy of Lightswitch Method (described [here](https://covid-measures.github.io/))  
+- Efficacy of Lightswitch Method (described [here](https://covid-measures.github.io/) by Marissa Childs et al)  
   
 ---  
 
