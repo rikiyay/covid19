@@ -1,7 +1,7 @@
-## Simulation of "Flatten the Curve"  
+## Simulation: "Flatten the Curve"  
 In this repo, we investigate:
 - Impact of Social Distancing  
-- Influence of Period of Social Distancing  
+- Influence of Social Distancing Period  
 - Efficacy of Lightswitch Method (described [here](https://covid-measures.github.io/) by Marissa Childs et al)  
   
 ---  
@@ -60,7 +60,7 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_lightswitch.png)  
 
-- Summary
+- In summary
 
 ![](concats/concat_overlayed_all.png) 
 
@@ -73,5 +73,5 @@ Link to abbreviated version of interactive:
   
 ---  
   
-Inspired by the simulation in [this Washington Post article](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/) by Harry Stevens  
-Reference to [this implementation](https://github.com/xnx/collision) of elastic collision by Christian Hill  
+- Inspired by the simulation in [this Washington Post article](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/) by Harry Stevens  
+- Reference to [this implementation](https://github.com/xnx/collision) of elastic collision by Christian Hill  
