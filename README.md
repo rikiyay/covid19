@@ -60,9 +60,13 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_lightswitch.png)  
 
-- In summary
+- In summary  
 
-![](concats/concat_overlayed_all.png) 
+    - Social distancing works for flattening the curve.  
+    - If we quit social distancing too early, we'll see outbreak.  
+    - Lightswich has a potential to decrease total period for social distancing.  
+
+![](concats/concat_overlayed_all.png)  
 
 ---  
   
