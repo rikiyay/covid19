@@ -12,51 +12,51 @@ In this repo, we investigate:
 
 - Social Distancing: Whole Period  
 
- - Activity Level 70%  
- - ![](simulations/flattenthecurve_70.gif)  
+    - Activity Level 70%  
+![](simulations/flattenthecurve_70.gif)  
 
- - Activity Level 40%  
- - ![](simulations/flattenthecurve_40.gif)  
+    - Activity Level 40%  
+![](simulations/flattenthecurve_40.gif)  
 
 ![](concats/concat_overlayed_wholeperiod.png)  
 
 - Social Distancing: Early Stop  
 
- - Activity Level 40% -> 100%  
- - ![](simulations/flattenthecurve_stop_shortterm.gif)  
+    - Activity Level 40% -> 100%  
+![](simulations/flattenthecurve_stop_shortterm.gif)  
 
- - Activity Level 40% -> 70%  
- - ![](simulations/flattenthecurve_stop_shortterm70.gif)  
+    - Activity Level 40% -> 70%  
+![](simulations/flattenthecurve_stop_shortterm70.gif)  
 
 ![](concats/concat_overlayed_stop_shortterm.png)  
 
 - Social Distancing: Mid Stop  
 
- - Activity Level 40% -> 100%  
- - ![](simulations/flattenthecurve_stop_midterm.gif)  
+    - Activity Level 40% -> 100%  
+![](simulations/flattenthecurve_stop_midterm.gif)  
 
- - Activity Level 40% -> 70%  
- - ![](simulations/flattenthecurve_stop_midterm70.gif)  
+    - Activity Level 40% -> 70%  
+![](simulations/flattenthecurve_stop_midterm70.gif)  
 
 ![](concats/concat_overlayed_stop_midterm.png)  
 
 - Social Distancing: Late Stop  
 
- - Activity Level 40% -> 100%  
- - ![](simulations/flattenthecurve_stop_longterm.gif)  
+    - Activity Level 40% -> 100%  
+![](simulations/flattenthecurve_stop_longterm.gif)  
 
- - Activity Level 40% -> 70%  
- - ![](simulations/flattenthecurve_stop_longterm70.gif)  
+    - Activity Level 40% -> 70%  
+![](simulations/flattenthecurve_stop_longterm70.gif)  
 
 ![](concats/concat_overlayed_stop_longterm.png)  
 
 - Social Distancing: Lightswitch  
 
- - Activity Level 40% -> 100%  
- - ![](simulations/flattenthecurve_lightswitch.gif)  
+    - Activity Level 40% -> 100%  
+![](simulations/flattenthecurve_lightswitch.gif)  
 
- - Activity Level 40% -> 70%  
- - ![](simulations/flattenthecurve_lightswitch70.gif)  
+    - Activity Level 40% -> 70%  
+![](simulations/flattenthecurve_lightswitch70.gif)  
 
 ![](concats/concat_overlayed_lightswitch.png)  
 
