@@ -6,7 +6,7 @@ In this repo, we investigate:
   
 ---  
 
-- No Social Distancing  
+- No Social Distancing (Activity Level 100%)  
 ![](simulations/flattenthecurve_100.gif)  
 ![](concats/concat_overlayed_nosocialdistancing.png)  
 
