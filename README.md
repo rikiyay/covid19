@@ -64,7 +64,7 @@ In this repo, we investigate:
 
     - Social distancing does flatten the curve.  
     - If we quit social distancing too early, we'll still see a surge.  
-    - Lightswich could be a promising method to decrease total social distancing period.  
+    - Lightswich can be a promising method for reducing the total social distancing period.  
 
 ![](concats/concat_overlayed_all.png)  
 
