@@ -71,9 +71,9 @@ In this repo, we investigate:
 ---  
   
 Link to an abbreviated version of interactive:  
-- [Notebook](https://nbviewer.jupyter.org/github/rikiyay/covid19/blob/master/flatten_the_curve.ipynb?flush_cache=true)  
-- [HTML](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/flatten_the_curve.html)  
-- [Slide](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/flatten_the_curve.slides.html)  
+- [Notebook](https://nbviewer.jupyter.org/github/rikiyay/covid19/blob/master/notebook/flatten_the_curve.ipynb?flush_cache=true)  
+- [HTML](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/notebook/flatten_the_curve.html)  
+- [Slide](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/notebook/flatten_the_curve.slides.html)  
   
 ---  
   
