@@ -7,7 +7,16 @@ In this repo, we investigate:
 ---  
 
 ### Experiments
+  
+- Each simulation is shown in GIF  
+    - Healthy person is shown in light gray  
+    - Infected person is shown in red  
+    - Recoverd person is shown in green  
+    - Dead person is removed from the simulation  
+        - but shown in the counter and stacked area chart in dark gray  
 
+- Each social distancing timeline is displayed on the left of still images  
+  
 - #### No Social Distancing (Activity Level 100%)  
 ![](simulations/flattenthecurve_100.gif)  
 ![](concats/concat_overlayed_nosocialdistancing.png)  
@@ -75,9 +84,9 @@ In this repo, we investigate:
 ---  
   
 ### Requirements  
-- python (`3.6.9` was used)  
-- numpy (`1.17.2` was used)  
-- matplotlib (`3.1.1` was used)  
+- python (`v3.6.9` was used)  
+- numpy (`v1.17.2` was used)  
+- matplotlib (`v3.1.1` was used)  
   
 ---  
   
