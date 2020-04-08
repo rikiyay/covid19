@@ -86,6 +86,7 @@ In this repo, we investigate:
 ---  
   
 ### Requirements  
+  
 - python (`v3.6.9` was used)  
 - numpy (`v1.17.2` was used)  
 - matplotlib (`v3.1.1` was used)  
@@ -93,6 +94,7 @@ In this repo, we investigate:
 ---  
   
 ### Link to abbreviated version of interactive:  
+  
 - [Notebook](https://nbviewer.jupyter.org/github/rikiyay/covid19/blob/master/notebook/flatten_the_curve.ipynb?flush_cache=true)  
 - [HTML](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/notebook/flatten_the_curve.html)  
 - [Slide](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/notebook/flatten_the_curve.slides.html)  
@@ -100,6 +102,7 @@ In this repo, we investigate:
 ---  
   
 ### Acknowledgements  
-- This repo is  
-    - Inspired by the simulation in [this Washington Post article](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/) by Harry Stevens  
-    - Based on [this elastic collision implementation](https://github.com/xnx/collision) by Christian Hill  
+  
+This repo is  
+- Inspired by the simulation in [this Washington Post article](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/) by Harry Stevens  
+- Based on [this elastic collision implementation](https://github.com/xnx/collision) by Christian Hill  
