@@ -83,6 +83,8 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_all.png)  
   
+Note: these simulations are vastly oversimplified and should not be readily applied to COVID-19 decision making.   
+
 ---  
   
 ### Requirements  
