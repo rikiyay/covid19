@@ -6,6 +6,8 @@ In this repo, we investigate:
   
 ---  
 
+Experiments
+
 - No Social Distancing (Activity Level 100%)  
 ![](simulations/flattenthecurve_100.gif)  
 ![](concats/concat_overlayed_nosocialdistancing.png)  
@@ -60,11 +62,13 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_lightswitch.png)  
 
-- In summary  
+---
 
-    - Social distancing does flatten the curve.  
-    - If we quit social distancing too early, we could still see a surge.  
-    - Lightswich method could potentially reduce the total social distancing period.  
+In summary  
+
+- Social distancing does flatten the curve.  
+- If we quit social distancing too early, we could still see a surge.  
+- Lightswich method could potentially reduce the total social distancing period.  
 
 ![](concats/concat_overlayed_all.png)  
 
@@ -77,6 +81,7 @@ Link to an abbreviated version of interactive:
   
 ---  
   
-This repo is
-- Inspired by the simulation in [this Washington Post article](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/) by Harry Stevens  
-- Based on [this elastic collision implementation](https://github.com/xnx/collision) by Christian Hill  
+Acknowledgements  
+- This repo is
+    - Inspired by the simulation in [this Washington Post article](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/) by Harry Stevens  
+    - Based on [this elastic collision implementation](https://github.com/xnx/collision) by Christian Hill  
