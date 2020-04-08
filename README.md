@@ -1,8 +1,8 @@
 ## Simulation: "Flatten the Curve"  
 In this repo, we investigate:
 - Impact of Social Distancing on "Flattening the Curve"  
-- Influence of a Difference in Social Distancing Period  
-- Efficacy of the Lightswitch Method (described [here](https://covid-measures.github.io/) by Marissa Childs et al)  
+- Influence of a Difference in the Duration of One-shot Social Distancing  
+- Efficacy of the Lightswitch Method (cyclic/intermittent approach to social distancing, described [here](https://covid-measures.github.io/) by Marissa Childs et al)  
   
 ---  
 
@@ -33,7 +33,7 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_wholeperiod.png)  
 
-#### Social Distancing: Early Stop  
+#### Social Distancing: On-shot (Short-term) 
 
 - Activity Level 40% -> 100%  
 ![](simulations/flattenthecurve_stop_shortterm.gif)  
@@ -43,7 +43,7 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_stop_shortterm.png)  
 
-#### Social Distancing: Mid Stop  
+#### Social Distancing: One-shot (Mid-term)  
 
 - Activity Level 40% -> 100%  
 ![](simulations/flattenthecurve_stop_midterm.gif)  
@@ -53,7 +53,7 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_stop_midterm.png)  
 
-#### Social Distancing: Late Stop  
+#### Social Distancing: One-shot (Long-term)  
 
 - Activity Level 40% -> 100%  
 ![](simulations/flattenthecurve_stop_longterm.gif)  
@@ -65,10 +65,10 @@ In this repo, we investigate:
 
 #### Social Distancing: Lightswitch  
 
-- Activity Level 40% -> 100%  
+- Activity Level 40% -> 100% (Repeated)  
 ![](simulations/flattenthecurve_lightswitch.gif)  
 
-- Activity Level 40% -> 70%  
+- Activity Level 40% -> 70% (Repeated)  
 ![](simulations/flattenthecurve_lightswitch70.gif)  
 
 ![](concats/concat_overlayed_lightswitch.png)  
@@ -77,8 +77,8 @@ In this repo, we investigate:
 
 ### In summary  
 
-- Social distancing does flatten the curve.  
-- If we quit social distancing too early, we could still see a surge.  
+- Social distancing works for flattening the curve.  
+- If we quit social distancing too early, we could still see a resurgence.  
 - Lightswich method could potentially reduce the total social distancing period.  
 
 ![](concats/concat_overlayed_all.png)  
