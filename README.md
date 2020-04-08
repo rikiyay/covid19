@@ -23,7 +23,7 @@ In this repo, we investigate:
 　　
 ![](concats/concat_overlayed_nosocialdistancing.png)  
 　　
-#### Social Distancing: Whole Period  
+#### Social Distancing: Continuous  
 
 - Activity Level 70%  
 ![](simulations/flattenthecurve_70.gif)  
