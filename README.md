@@ -15,58 +15,60 @@ In this repo, we investigate:
     - Dead person is removed from the simulation  
         - but shown in the counter and stacked area chart in dark gray  
 
-- Each social distancing timeline is displayed on the left of still images  
+- Social distancing timelines are displayed on the left of still images  
   
-- #### No Social Distancing (Activity Level 100%)  
+#### No Social Distancing (Activity Level 100%)  
+　　
 ![](simulations/flattenthecurve_100.gif)  
+　　
 ![](concats/concat_overlayed_nosocialdistancing.png)  
+　　
+#### Social Distancing: Whole Period  
 
-- #### Social Distancing: Whole Period  
-
-    - Activity Level 70%  
+- Activity Level 70%  
 ![](simulations/flattenthecurve_70.gif)  
 
-    - Activity Level 40%  
+- Activity Level 40%  
 ![](simulations/flattenthecurve_40.gif)  
 
 ![](concats/concat_overlayed_wholeperiod.png)  
 
-- #### Social Distancing: Early Stop  
+#### Social Distancing: Early Stop  
 
-    - Activity Level 40% -> 100%  
+- Activity Level 40% -> 100%  
 ![](simulations/flattenthecurve_stop_shortterm.gif)  
 
-    - Activity Level 40% -> 70%  
+- Activity Level 40% -> 70%  
 ![](simulations/flattenthecurve_stop_shortterm70.gif)  
 
 ![](concats/concat_overlayed_stop_shortterm.png)  
 
-- #### Social Distancing: Mid Stop  
+#### Social Distancing: Mid Stop  
 
-    - Activity Level 40% -> 100%  
+- Activity Level 40% -> 100%  
 ![](simulations/flattenthecurve_stop_midterm.gif)  
 
-    - Activity Level 40% -> 70%  
+- Activity Level 40% -> 70%  
 ![](simulations/flattenthecurve_stop_midterm70.gif)  
 
 ![](concats/concat_overlayed_stop_midterm.png)  
 
-- #### Social Distancing: Late Stop  
+#### Social Distancing: Late Stop  
 
-    - Activity Level 40% -> 100%  
+- Activity Level 40% -> 100%  
 ![](simulations/flattenthecurve_stop_longterm.gif)  
 
-    - Activity Level 40% -> 70%  
+- Activity Level 40% -> 70%  
 ![](simulations/flattenthecurve_stop_longterm70.gif)  
 
 ![](concats/concat_overlayed_stop_longterm.png)  
 
-- #### Social Distancing: Lightswitch  
+#### Social Distancing: Lightswitch  
 
-    - Activity Level 40% -> 100%  
+- Activity Level 40% -> 100%  
 ![](simulations/flattenthecurve_lightswitch.gif)  
 
-    - Activity Level 40% -> 70%  
+- Activity Level 40% -> 70%  
 ![](simulations/flattenthecurve_lightswitch70.gif)  
 
 ![](concats/concat_overlayed_lightswitch.png)  
