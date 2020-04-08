@@ -68,7 +68,7 @@ In this repo, we investigate:
 - Activity Level 40% -> 100% (Repeated)  
 ![](simulations/flattenthecurve_lightswitch.gif)  
 
-- Activity Level 40% -> 70% (Repeated)  
+- Activity Level 40% -> 70% (Repeated) -> 100%  
 ![](simulations/flattenthecurve_lightswitch70.gif)  
 
 ![](concats/concat_overlayed_lightswitch.png)  
