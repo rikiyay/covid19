@@ -63,7 +63,7 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_stop_longterm.png)  
 
-#### Social Distancing: Lightswitch  
+#### Social Distancing: Lightswitch (Cyclic Social Distancing)  
 
 - Activity Level 40% -> 100% (Repeated)  
 ![](simulations/flattenthecurve_lightswitch.gif)  
