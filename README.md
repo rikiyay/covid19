@@ -8,11 +8,11 @@ In this repo, we investigate:
 
 ### Experiments
 
-- No Social Distancing (Activity Level 100%)  
+- #### No Social Distancing (Activity Level 100%)  
 ![](simulations/flattenthecurve_100.gif)  
 ![](concats/concat_overlayed_nosocialdistancing.png)  
 
-- Social Distancing: Whole Period  
+- #### Social Distancing: Whole Period  
 
     - Activity Level 70%  
 ![](simulations/flattenthecurve_70.gif)  
@@ -22,7 +22,7 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_wholeperiod.png)  
 
-- Social Distancing: Early Stop  
+- #### Social Distancing: Early Stop  
 
     - Activity Level 40% -> 100%  
 ![](simulations/flattenthecurve_stop_shortterm.gif)  
@@ -32,7 +32,7 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_stop_shortterm.png)  
 
-- Social Distancing: Mid Stop  
+- #### Social Distancing: Mid Stop  
 
     - Activity Level 40% -> 100%  
 ![](simulations/flattenthecurve_stop_midterm.gif)  
@@ -42,7 +42,7 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_stop_midterm.png)  
 
-- Social Distancing: Late Stop  
+- #### Social Distancing: Late Stop  
 
     - Activity Level 40% -> 100%  
 ![](simulations/flattenthecurve_stop_longterm.gif)  
@@ -52,7 +52,7 @@ In this repo, we investigate:
 
 ![](concats/concat_overlayed_stop_longterm.png)  
 
-- Social Distancing: Lightswitch  
+- #### Social Distancing: Lightswitch  
 
     - Activity Level 40% -> 100%  
 ![](simulations/flattenthecurve_lightswitch.gif)  
@@ -81,10 +81,12 @@ Link to an abbreviated version of interactive:
   
 ---  
   
-### Prerequisites
-- python 3.6.9  
-- numpy 1.17.2  
-- matplotlib 3.1.1  
+### Prerequisites[^1]
+- python (3.6.9)  
+- numpy (1.17.2)  
+- matplotlib (3.1.1)  
+
+[^1]:versions used are in the parentheses
 
 ---  
   
