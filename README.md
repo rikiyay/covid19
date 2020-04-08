@@ -74,20 +74,18 @@ In this repo, we investigate:
   
 ---  
   
-Link to an abbreviated version of interactive:  
+### Requirements  
+- python (`3.6.9` was used)  
+- numpy (`1.17.2` was used)  
+- matplotlib (`3.1.1` was used)  
+  
+---  
+  
+### Link to abbreviated version of interactive:  
 - [Notebook](https://nbviewer.jupyter.org/github/rikiyay/covid19/blob/master/notebook/flatten_the_curve.ipynb?flush_cache=true)  
 - [HTML](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/notebook/flatten_the_curve.html)  
 - [Slide](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/notebook/flatten_the_curve.slides.html)  
   
----  
-  
-### Prerequisites[^1]
-- python (3.6.9)  
-- numpy (1.17.2)  
-- matplotlib (3.1.1)  
-
-[^1]:versions used are in the parentheses
-
 ---  
   
 ### Acknowledgements  
