@@ -79,4 +79,4 @@ Link to abbreviated version of interactive:
   
 This repo is
 - Inspired by the simulation in [this Washington Post article](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/) by Harry Stevens  
-- Based on [this implementation](https://github.com/xnx/collision) of elastic collision by Christian Hill  
+- Based on [this elastic collision implementation](https://github.com/xnx/collision) by Christian Hill  
