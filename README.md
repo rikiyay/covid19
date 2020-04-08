@@ -63,7 +63,7 @@ In this repo, we investigate:
 - In summary  
 
     - Social distancing does flatten the curve.  
-    - If we quit social distancing too early, we'll still see a surge.  
+    - If we quit social distancing too early, we could still see a surge.  
     - Lightswich method could potentially reduce the total social distancing period.  
 
 ![](concats/concat_overlayed_all.png)  
