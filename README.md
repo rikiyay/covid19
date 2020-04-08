@@ -15,7 +15,7 @@ In this repo, we investigate:
     - Dead person is removed from the simulation  
         - but shown in the counter and stacked area chart in dark gray  
 
-- Social distancing timelines are displayed on the left of still images  
+- Social distancing timelines are displayed on the left of the still images  
   
 #### No Social Distancing (Activity Level 100%)  
 　　
