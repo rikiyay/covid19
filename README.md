@@ -4,6 +4,32 @@ In this repo, we investigate:
 - Influence of the Duration of One-shot Social Distancing  
 - Efficacy of the Lightswitch Method (cyclic/intermittent approach to social distancing, described [here](https://covid-measures.github.io/) by Marissa Childs et al)  
   
+In simulations:  
+- Healthy person is shown in light gray  
+- Infected person is shown in red  
+- Recoverd person is shown in green  
+- Dead person is hidden but displayed in dark gray in counter and stacked area chart  
+   
+List of experiments  
+- No Social Distancing (Activity Level 100%)  
+- Social Distancing: Continuous
+    - Activity Level 70%  
+    - Activity Level 40%  
+- Social Distancing: On-shot (Short-term)  
+    - Activity Level 40% -> 100%  
+    - Activity Level 40% -> 70%  
+- Social Distancing: On-shot (Mid-term)  
+    - Activity Level 40% -> 100%  
+    - Activity Level 40% -> 70%  
+- Social Distancing: On-shot (Long-term)  
+    - Activity Level 40% -> 100%  
+    - Activity Level 40% -> 70%  
+- Social Distancing: Lightswitch (Cyclic social distancing)  
+    - Activity Level 40% -> 100% (Repeated)  
+    - Activity Level 40% -> 70% (Repeated) -> 100%  
+  
+Note: these simulations are vastly oversimplified and should not be readily applied to COVID-19 decision making.  
+  
 ---  
   
 ### TL;DR  
@@ -13,20 +39,9 @@ In this repo, we investigate:
 - Lightswich method could potentially reduce the total social distancing period.  
   
 ![](concats/concat_overlayed_all.png)  
-  
-Note: these simulations are vastly oversimplified and should not be readily applied to COVID-19 decision making.   
-  
+
 ---  
 ### Experiments
-  
-- Each simulation is shown in GIF  
-    - Healthy person is shown in light gray  
-    - Infected person is shown in red  
-    - Recoverd person is shown in green  
-    - Dead person is removed from the simulation  
-        - but shown in the counter and stacked area chart in dark gray  
-
-- Social distancing timelines are displayed on the left of the still images  
   
 #### No Social Distancing (Activity Level 100%)  
   
