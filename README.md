@@ -50,7 +50,6 @@ Note: these simulations are vastly oversimplified and should not be readily appl
 #### No Social Distancing (Activity Level 100%)  
   
 ![](activity_levels/y100.png)  
-  
 ![](simulations/flattenthecurve_100.gif)  
 　　
 <!-- ![](concats/concat_overlayed_nosocialdistancing.png)   -->
@@ -60,13 +59,11 @@ Note: these simulations are vastly oversimplified and should not be readily appl
 - Activity Level 70%  
   
 ![](activity_levels/y70.png)  
-  
 ![](simulations/flattenthecurve_70.gif)  
 
 - Activity Level 40%  
   
 ![](activity_levels/y40.png)  
-  
 ![](simulations/flattenthecurve_40.gif)  
 
 <!-- ![](concats/concat_overlayed_wholeperiod.png)   -->
@@ -74,15 +71,12 @@ Note: these simulations are vastly oversimplified and should not be readily appl
 #### Social Distancing: On-shot (Short-term) 
 
 - Activity Level 40% -> 100%  
-  
 ![](activity_levels/ystop_shortterm.png)  
-  
 ![](simulations/flattenthecurve_stop_shortterm.gif)  
 
 - Activity Level 40% -> 70%  
   
 ![](activity_levels/ystop_shortterm70.png)  
-  
 ![](simulations/flattenthecurve_stop_shortterm70.gif)  
 
 <!-- ![](concats/concat_overlayed_stop_shortterm.png)   -->
@@ -92,13 +86,11 @@ Note: these simulations are vastly oversimplified and should not be readily appl
 - Activity Level 40% -> 100%  
   
 ![](activity_levels/ystop_midterm.png)  
-  
 ![](simulations/flattenthecurve_stop_midterm.gif)  
 
 - Activity Level 40% -> 70%  
   
 ![](activity_levels/ystop_midterm70.png)  
-  
 ![](simulations/flattenthecurve_stop_midterm70.gif)  
 
 <!-- ![](concats/concat_overlayed_stop_midterm.png)   -->
@@ -108,13 +100,11 @@ Note: these simulations are vastly oversimplified and should not be readily appl
 - Activity Level 40% -> 100%  
   
 ![](activity_levels/ystop_longterm.png)  
-  
 ![](simulations/flattenthecurve_stop_longterm.gif)  
 
 - Activity Level 40% -> 70%  
   
 ![](activity_levels/ystop_longterm70.png)  
-  
 ![](simulations/flattenthecurve_stop_longterm70.gif)  
 
 <!-- ![](concats/concat_overlayed_stop_longterm.png)   -->
@@ -122,15 +112,13 @@ Note: these simulations are vastly oversimplified and should not be readily appl
 #### Social Distancing: Lightswitch (Cyclic Social Distancing)  
 
 - Activity Level 40% -> 100% (Repeated)  
-  
+
 ![](activity_levels/ylightswitch.png)  
-  
 ![](simulations/flattenthecurve_lightswitch.gif)  
 
 - Activity Level 40% -> 70% (Repeated) -> 100%  
   
 ![](activity_levels/ylightswitch70.png)  
-  
 ![](simulations/flattenthecurve_lightswitch70.gif)  
 
 <!-- ![](concats/concat_overlayed_lightswitch.png)   -->
