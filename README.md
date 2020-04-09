@@ -1,5 +1,6 @@
 ## Simulation: "Flatten the Curve"  
-In this repo, we investigate:
+  
+### In this repo, we investigate:  
 - Impact of Social Distancing on "Flattening the Curve"  
 - Influence of the Duration of One-shot Social Distancing  
 - Efficacy of the Lightswitch Method (cyclic approach to social distancing, described [here](https://covid-measures.github.io/) by Marissa Childs et al)  
