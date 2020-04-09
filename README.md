@@ -48,7 +48,7 @@
   
 Note:
     - These simulations are vastly oversimplified and should not be readily applied to COVID-19 decision making.  
-    - Initial state is randomly initialized on each run, therefore the simulation result varies.
+    - Initial state is randomly initialized on each run, therefore the simulation result varies.  
 
 ---  
 ### Experiments
@@ -136,6 +136,8 @@ Note:
 - python (`v3.6.9` was used)  
 - numpy (`v1.17.2` was used)  
 - matplotlib (`v3.1.1` was used)  
+- imagemagick (to save .gif)  
+- ffmpeg (to safe .mp4)  
   
 ---  
   
