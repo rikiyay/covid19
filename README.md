@@ -5,7 +5,18 @@ In this repo, we investigate:
 - Efficacy of the Lightswitch Method (cyclic/intermittent approach to social distancing, described [here](https://covid-measures.github.io/) by Marissa Childs et al)  
   
 ---  
-
+  
+### TL;DR  
+  
+- Social distancing works for flattening the curve.  
+- If we quit social distancing too early, we could still see a resurgence.  
+- Lightswich method could potentially reduce the total social distancing period.  
+  
+![](concats/concat_overlayed_all.png)  
+  
+Note: these simulations are vastly oversimplified and should not be readily applied to COVID-19 decision making.   
+  
+---  
 ### Experiments
   
 - Each simulation is shown in GIF  
@@ -23,7 +34,7 @@ In this repo, we investigate:
   
 ![](simulations/flattenthecurve_100.gif)  
 　　
-![](concats/concat_overlayed_nosocialdistancing.png)  
+<!-- ![](concats/concat_overlayed_nosocialdistancing.png)   -->
 　　
 #### Social Distancing: Continuous  
 
@@ -39,7 +50,7 @@ In this repo, we investigate:
   
 ![](simulations/flattenthecurve_40.gif)  
 
-![](concats/concat_overlayed_wholeperiod.png)  
+<!-- ![](concats/concat_overlayed_wholeperiod.png)   -->
 
 #### Social Distancing: On-shot (Short-term) 
 
@@ -55,7 +66,7 @@ In this repo, we investigate:
   
 ![](simulations/flattenthecurve_stop_shortterm70.gif)  
 
-![](concats/concat_overlayed_stop_shortterm.png)  
+<!-- ![](concats/concat_overlayed_stop_shortterm.png)   -->
 
 #### Social Distancing: One-shot (Mid-term)  
 
@@ -71,7 +82,7 @@ In this repo, we investigate:
   
 ![](simulations/flattenthecurve_stop_midterm70.gif)  
 
-![](concats/concat_overlayed_stop_midterm.png)  
+<!-- ![](concats/concat_overlayed_stop_midterm.png)   -->
 
 #### Social Distancing: One-shot (Long-term)  
 
@@ -87,7 +98,7 @@ In this repo, we investigate:
   
 ![](simulations/flattenthecurve_stop_longterm70.gif)  
 
-![](concats/concat_overlayed_stop_longterm.png)  
+<!-- ![](concats/concat_overlayed_stop_longterm.png)   -->
 
 #### Social Distancing: Lightswitch (Cyclic Social Distancing)  
 
@@ -103,21 +114,9 @@ In this repo, we investigate:
   
 ![](simulations/flattenthecurve_lightswitch70.gif)  
 
-![](concats/concat_overlayed_lightswitch.png)  
+<!-- ![](concats/concat_overlayed_lightswitch.png)   -->
 
 ---
-
-### In summary  
-
-- Social distancing works for flattening the curve.  
-- If we quit social distancing too early, we could still see a resurgence.  
-- Lightswich method could potentially reduce the total social distancing period.  
-
-![](concats/concat_overlayed_all.png)  
-  
-Note: these simulations are vastly oversimplified and should not be readily applied to COVID-19 decision making.   
-
----  
   
 ### Requirements  
   
