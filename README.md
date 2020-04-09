@@ -4,13 +4,9 @@ In this repo, we investigate:
 - Influence of the Duration of One-shot Social Distancing  
 - Efficacy of the Lightswitch Method (cyclic/intermittent approach to social distancing, described [here](https://covid-measures.github.io/) by Marissa Childs et al)  
   
-Color code in simulations:  
-- Healthy person is shown in light gray  
-- Infected person is shown in red  
-- Recoverd person is shown in green  
-- Dead person is hidden but displayed in dark gray in counter and stacked area chart  
-   
-List of experiments  
+---  
+
+### List of experiments  
 - No Social Distancing (Activity Level 100%)  
 - Social Distancing: Continuous
     - Activity Level 70%  
@@ -28,7 +24,13 @@ List of experiments
     - Activity Level 40% -> 100% (Repeated)  
     - Activity Level 40% -> 70% (Repeated) -> 100%  
   
-Note: these simulations are vastly oversimplified and should not be readily applied to COVID-19 decision making.  
+---  
+  
+### Color code in simulations:  
+- Healthy person is shown in light gray  
+- Infected person is shown in red  
+- Recoverd person is shown in green  
+- Dead person is hidden but displayed in dark gray in counter and stacked area chart  
   
 ---  
   
@@ -39,6 +41,8 @@ Note: these simulations are vastly oversimplified and should not be readily appl
 - Lightswich method could potentially reduce the total social distancing period.  
   
 ![](concats/concat_overlayed_all.png)  
+  
+Note: these simulations are vastly oversimplified and should not be readily applied to COVID-19 decision making.  
 
 ---  
 ### Experiments
