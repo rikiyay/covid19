@@ -4,7 +4,7 @@ In this repo, we investigate:
 - Influence of the Duration of One-shot Social Distancing  
 - Efficacy of the Lightswitch Method (cyclic/intermittent approach to social distancing, described [here](https://covid-measures.github.io/) by Marissa Childs et al)  
   
-In simulations:  
+Color codes in simulations:  
 - Healthy person is shown in light gray  
 - Infected person is shown in red  
 - Recoverd person is shown in green  
