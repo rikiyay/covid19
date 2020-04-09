@@ -30,7 +30,7 @@ In this repo, we investigate:
 - Healthy person is shown in light gray  
 - Infected person is shown in red  
 - Recoverd person is shown in green  
-- Dead person is hidden but displayed in dark gray in counter and stacked area chart  
+- Dead person is removed from simulations, but displayed in dark gray in counter and stacked area chart  
   
 ---  
   
