@@ -143,11 +143,11 @@ Note:
   
 ### Link to abbreviated version of interactive:  
   
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/rikiyay/covid19/blob/master/notebook/flatten_the_curve.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rikiyay/covid19/blob/master/notebooks/flatten_the_curve.ipynb)  
 
-- [Notebook](https://nbviewer.jupyter.org/github/rikiyay/covid19/blob/master/notebook/flatten_the_curve.ipynb?flush_cache=true)  
-- [HTML](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/notebook/flatten_the_curve.html)  
-- [Slide](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/notebook/flatten_the_curve.slides.html)  
+- [Notebook](https://nbviewer.jupyter.org/github/rikiyay/covid19/blob/master/notebooks/flatten_the_curve.ipynb?flush_cache=true)  
+- [HTML](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/notebooks/flatten_the_curve.html)  
+- [Slide](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/notebooks/flatten_the_curve.slides.html)  
   
 ---  
   
