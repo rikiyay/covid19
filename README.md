@@ -41,7 +41,7 @@
 ### TL;DR  
   
 - Social distancing works for flattening the curve.  
-- If we quit social distancing too early, we could still see a resurgence.  
+- If we quit social distancing too early, we could see a resurgence.  
 - Lightswich method could potentially reduce the total social distancing period.  
   
 ![](concats/concat_overlayed_all.png)  
