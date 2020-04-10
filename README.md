@@ -34,7 +34,7 @@
 - Healthy person is shown in light gray  
 - Infected person is shown in red  
 - Recoverd person is shown in green  
-- Dead person is removed from simulations, but displayed in dark gray in counter and stacked area chart  
+- Dead person is removed from simulation, but displayed in dark gray in counter and stacked area chart  
   
 ---  
   
@@ -42,12 +42,12 @@
   
 - Social distancing works for flattening the curve.  
 - If we quit social distancing too early, we could see a resurgence.  
-- Lightswich method could potentially reduce the total social distancing period.  
+- Lightswich method could potentially help reduce the total social distancing period.  
   
 ![](concats/concat_overlayed_all.png)  
   
 Note:  
-- These simulations are vastly oversimplified and should not be readily applied to COVID-19 decision making.  
+- This simulation is vastly oversimplified and should not be readily applied to COVID-19 decision making.  
 - Initial state is randomly initialized on each run, therefore the simulation result varies.  
   
 ---  
