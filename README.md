@@ -47,7 +47,7 @@
 ![](concats/concat_overlayed_all.png)  
   
 Note:  
-- This simulation is vastly oversimplified and should not be readily applied to COVID-19 decision making.  
+- This simulation is vastly oversimplified and should not be readily applied to any COVID-19 decision making.  
 - Initial state is randomly initialized on each run, therefore the simulation result varies.  
   
 ---  
