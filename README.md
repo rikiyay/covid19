@@ -149,7 +149,6 @@ Note:
 - [Notebook](https://nbviewer.jupyter.org/github/rikiyay/covid19/blob/master/notebooks/flatten_the_curve.ipynb?flush_cache=true)  
 - [Slide](https://nbviewer.jupyter.org/format/slides/github/rikiyay/covid19/blob/master/notebooks/flatten_the_curve.ipynb?flush_cache=true)  
 - [HTML](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/notebooks/flatten_the_curve.html)  
-<!-- - [Slide](https://htmlpreview.github.io/?https://github.com/rikiyay/covid19/blob/master/notebooks/flatten_the_curve.slides.html)   -->
   
 ---  
   
