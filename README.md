@@ -143,6 +143,7 @@ Note:
   
 ### Link to abbreviated version of interactive:  
   
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rikiyay/covid19/master?filepath=notebooks%2Fflatten_the_curve.ipynb)  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rikiyay/covid19/blob/master/notebooks/flatten_the_curve.ipynb)  
 
 - [Notebook](https://nbviewer.jupyter.org/github/rikiyay/covid19/blob/master/notebooks/flatten_the_curve.ipynb?flush_cache=true)  
