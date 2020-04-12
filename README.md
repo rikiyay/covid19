@@ -157,3 +157,8 @@ Note:
 This repo is  
 - Inspired by the simulation in [this Washington Post article](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/) by Harry Stevens  
 - Based on [this elastic collision implementation](https://github.com/xnx/collision) by Christian Hill  
+  
+---  
+  
+Copyright (c) 2020 Rikiya Yamashita
+Released under the [MIT license](https://opensource.org/licenses/mit-license.php)  
