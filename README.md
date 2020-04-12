@@ -160,5 +160,5 @@ This repo is
   
 ---  
   
-Copyright (c) 2020 Rikiya Yamashita
+Copyright (c) 2020 Rikiya Yamashita  
 Released under the [MIT license](https://opensource.org/licenses/mit-license.php)  
